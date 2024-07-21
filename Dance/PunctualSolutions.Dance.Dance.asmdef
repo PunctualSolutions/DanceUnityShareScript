@@ -1,0 +1,20 @@
+{
+    "name": "PunctualSolutions.Dance.Dance",
+    "rootNamespace": "PunctualSolutions.Dance.Dance",
+    "references": [
+        "GUID:26af0e80f0fad0a4f968d2a1877e9685",
+        "GUID:682ac9fd972789ebd9caf6d5623f1db6",
+        "GUID:0b0ab492abe358b4f8f8fc6e9085e80f",
+        "GUID:c96467aa174e5074e825d220b37e6418",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
