@@ -17,5 +17,9 @@ namespace PunctualSolutions.Dance.Dance.Dance
         public override void Exit()
         {
         }
+
+        public DanceQueueStateIdle(DanceQueueManager manager) : base(manager)
+        {
+        }
     }
 }

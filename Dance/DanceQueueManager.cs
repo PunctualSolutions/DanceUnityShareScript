@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace PunctualSolutions.Dance.Dance
 {
-    public class DanceQueueManager : MonoSingleton<DanceQueueManager>
+    public class DanceQueueManager : MonoBehaviour
     {
         [SerializeField]               float                  checkInterval;
         [SerializeField]               Transform              centerPosition;

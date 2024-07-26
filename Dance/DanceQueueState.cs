@@ -4,11 +4,13 @@ namespace PunctualSolutions.Dance.Dance.Dance
 {
     public abstract class DanceQueueState : IState
     {
-        static          DanceRequest CurrentRequest => DanceQueueManager.Instance.CurrentRequest;
-        protected       Dancer       CurrentDancer  => CurrentRequest.Dancer;
-        public abstract void         Enter();
-        public abstract void         FixedUpdate();
-        public abstract void         LogicUpdate();
-        public abstract void         Exit();
+        readonly DanceQueueManager _manager;
+        DanceRequest               CurrentRequest => _manager.CurrentRequest;
+        protected       Dancer     CurrentDancer  => CurrentRequest.Dancer;
+        public abstract void       Enter();
+        public abstract void       FixedUpdate();
+        public abstract void       LogicUpdate();
+        public abstract void       Exit();
+        protected DanceQueueState(DanceQueueManager manager) => _manager = manager;
     }
 }
